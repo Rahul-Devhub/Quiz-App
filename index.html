@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style/index.css" />
+
+    <title>Knowledge Game</title>
+  </head>
+  <body>
+    <nav>
+      <h1>Check your Knowledge</h1>
+    </nav>
+
+    <!--  -->
+    <div class="main-sec">
+      <div class="info-sec">
+        <div class="question">
+          <div><h3>Question</h3></div>
+          <div class="qbtn">
+            <p id="question-p">
+              Press <strong>Start</strong> to display a question
+            </p>
+            <button id="start">Start</button>
+          </div>
+        </div>
+
+        <div class="answers">
+          <h3>Answers</h3>
+          <!-- <p>
+            <input type="radio" name="answer" class="radioAns" />
+            <label for="">First answer</label>
+          </p>
+          <p>
+            <input type="radio" name="answer" class="radioAns" />
+            <label for="">Second answer</label>
+          </p>
+          <p>
+            <input type="radio" name="answer" class="radioAns" />
+            <label for="">Third answer</label>
+          </p>
+          <p>
+            <input type="radio" name="answer" class="radioAns" />
+            <label for="">Forth answer</label>
+          </p> -->
+        </div>
+
+        <div class="btn">
+          <button class="submit" id="submit" disabled>Submit Answer</button>
+        </div>
+
+        <div id="ans">
+          <h3 id="selected-answer"></h3>
+        </div>
+      </div>
+
+      <div class="base-timer">
+        <h3 id="counter">
+          <span id="time"></span>
+          <br />
+          <span id="secnds">Seconds remaining</span>
+        </h3>
+      </div>
+    </div>
+
+    <!--  -->
+
+    <footer> </footer>
+
+    <!--  -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
