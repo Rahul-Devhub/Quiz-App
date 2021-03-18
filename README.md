@@ -1,6 +1,5 @@
 # This is a Question Answer App
 
-![Todo App Screenshot - Desktop preview](images/ss.PNG)
 
 This is made using Simple HTML, CSS and JavaScript
 
